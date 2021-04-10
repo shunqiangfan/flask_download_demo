@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Download Directory
+    </title>
+  </head>
+  <body>
+    <p> dirctory </p>
+    {% for content in dirctory_contents %}
+      <a href="/download/{{content}}">{{content}}</a>
+      <br>
+    {% endfor %}
+  </body>
+</html>
